@@ -1109,6 +1109,33 @@ section {
 
 
 /*--------------------------------------------------------------
+# Formulario
+--------------------------------------------------------------*/
+
+form .btn-whatsapp {
+    background-color: #25d366;
+    color: white;
+    font-weight: 600;
+    box-shadow: 2px 2px 3px #e2e2e2;
+}
+
+form .btn-whatsapp:hover {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 
