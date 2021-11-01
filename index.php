@@ -10,7 +10,7 @@
 
 <main id="main">
     <?php include 'assets/templates/about.php'; ?>
-    <?php include 'assets/templates/resume.php'; ?>
+    <?php include 'assets/templates/curriculum.php'; ?>
     <?php include 'assets/templates/portfolio.php'; ?>
     <?php include 'assets/templates/contacto.php'; ?>
 </main>

@@ -1,0 +1,16 @@
+{
+    "name": "equipo/portfolio-resume",
+    "description": "Mi portfolio",
+    "autoload": {
+        "psr-4": {
+            "Equipo\\PortfolioResume\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Centeno Jose Antonio",
+            "email": "jocecito182@gmail.com"
+        }
+    ],
+    "require": {}
+}
