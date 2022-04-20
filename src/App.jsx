@@ -1,3 +1,5 @@
+import Card from "./components/Card";
+
 function App() {
   return (
     <div className="outer-wrapper">
@@ -10,10 +12,18 @@ function App() {
           </div>
           <img src="./img/myself-removebg-preview.png" alt="" />
         </section>
-        <section className="slide two" id="about"></section>
+        <section className="slide two" id="about">
+        </section>
         <section className="slide three" id="speciality"></section>
         <section className="slide four" id="skillsTools"></section>
-        <section className="slide five" id="portfolio"></section>
+        <section className="slide five flex justify-around" id="portfolio">
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+        </section>
         <section className="slide six" id="contact"></section>
       </div>
     </div>

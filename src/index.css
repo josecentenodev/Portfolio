@@ -26,7 +26,7 @@
 .wrapper {
     display: flex;
     flex-direction: row;
-    width: 600vw;
+    width: 700vw;
     transform: rotate(90deg) translateY(-100vh);
     transform-origin: top left;
 }
@@ -53,4 +53,8 @@
 
 .six {
     background-color: thistle;
+}
+
+#portfolio {
+    width: 200vw;
 }
