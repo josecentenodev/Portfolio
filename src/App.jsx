@@ -13,6 +13,13 @@ function App() {
           <img src="./img/myself-removebg-preview.png" alt="" />
         </section>
         <section className="slide two" id="about">
+        <h1 className="text-5xl font-bold my-20 mx-24 px-12">About <span className=" text-cyan-600 font-bold">Me</span></h1>
+
+        <p className="mx-24 py-8 px-12">Hey! my name is José and I am a front-end developer and web designer. I graduated from several courses at Udemy, FreeCodeCamp and EscuelaDevRock in the field of Web Development. At the moment I keep studying and diving deeper into these disciplines.</p>
+        <p className="mx-24 py-8 px-12">I believe that the most important thing in life is to find yourself and what you like. I am very glad that I have chosen this path, which is a straight line to success if you put the necessary effort and never give up. This motivates mem and so I move on.</p>
+        <div className="flex justify-end">
+        <em className="mx-40 mt-12">Working with me: I give my best and also learn and adapt quickly!</em>
+        </div>
         </section>
         <section className="slide three" id="speciality"></section>
         <section className="slide four" id="skillsTools"></section>
