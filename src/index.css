@@ -26,35 +26,7 @@
 .wrapper {
     display: flex;
     flex-direction: row;
-    width: 700vw;
+    width: 600vw;
     transform: rotate(90deg) translateY(-100vh);
     transform-origin: top left;
-}
-
-.one {
-    background-color: #fafafa;
-}
-
-.two {
-    background-color: #fafafa;
-}
-
-.three {
-    background-color: #fafafa;
-}
-
-.four {
-    background-color: #fafafa;
-}
-
-.five {
-    background-color: #fafafa;
-}
-
-.six {
-    background-color: #fafafa;
-}
-
-#portfolio {
-    width: 200vw;
 }
