@@ -12,9 +12,14 @@ export default function CoverPage() {
               <span className=" text-cyan-600 font-bold">I'm:</span> Web
               Developer & Web Designer
             </h2>
-            <button className=" mt-5 mr-20 self-end inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-slate-800 hover:bg-cyan-600">
+            <div className='mt-12'>
+            <button className="mr-5 px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-cyan-600 hover:bg-slate-800">
+              Download CV
+            </button>
+            <button className="px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-slate-800 hover:bg-cyan-600">
               Contact Me
             </button>
+            </div>
           </div>
           <img src="./img/myself-removebg-preview.png" alt="Cover Page Image" />
         </section>

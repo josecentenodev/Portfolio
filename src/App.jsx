@@ -1,7 +1,7 @@
 import CoverPage from "./pages/CoverPage";
 import About from "./pages/About";
 import Speciality from "./pages/Speciality";
-import Skills from "./pages/Skills";
+import SectionSkills from "./pages/Skills";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 
@@ -13,7 +13,7 @@ function App() {
         <CoverPage />
         <About />
         <Speciality />
-        <Skills />
+        <SectionSkills />
         <Portfolio />
         <Contact />
       </div>
