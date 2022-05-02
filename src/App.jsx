@@ -7,7 +7,7 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <div className="outer-wrapper bg-gray-50">
+    <div className="outer-wrapper bg-gray-50 dark:bg-slate-700">
       <div className="wrapper">
       <hr className=" w-full absolute bottom-10" />
         <CoverPage />
