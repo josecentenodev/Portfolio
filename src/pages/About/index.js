@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function About() {
   return (
-    <section className="slide two" id="about">
-          <div className="w-4/5 mx-auto">
+    <section className="slide" id="about">
+          <div className="md:w-4/5 md:mx-auto">
             <h1 className="text-5xl font-bold my-20 px-12">
               About <span className=" text-cyan-600 font-bold">Me</span>
             </h1>

@@ -2,13 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Custom CSS */
 
-.slide {
-    width: 100vw;
-    height: 100vh;
+.skillImg {
+  width: 5rem;
+  height: 5rem;
+  margin: 10px auto;
 }
 
-.outer-wrapper {
+.skillImg__figma {
+  width: 3.5rem;
+  height: 5rem;
+  margin: 10px auto;
+}
+
+.skillImg:hover {
+  transform: scale(1.05);
+}
+
+.skillImg__figma:hover {
+  transform: scale(1.05);
+}
+
+hr {
+    display: none;
+}
+
+/* MediaQuery para scroll horizontal a partir de width: 768px */
+
+@media only screen and (min-width: 768px) {
+
+    hr {
+        display: block;
+    }
+
+  .slide {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .outer-wrapper {
     width: 100vh;
     height: 100vw;
     transform: rotate(-90deg) translateX(-100vh);
@@ -17,16 +50,17 @@
     overflow-x: hidden;
     position: absolute;
     scrollbar-width: none;
-}
+  }
 
-::-webkit-scrollbar {
+  ::-webkit-scrollbar {
     display: none;
-}
+  }
 
-.wrapper {
+  .wrapper {
     display: flex;
     flex-direction: row;
     width: 600vw;
     transform: rotate(90deg) translateY(-100vh);
     transform-origin: top left;
+  }
 }
