@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="outer-wrapper bg-gray-50 dark:bg-slate-700">
       <div className="wrapper">
-      <hr className=" w-full absolute bottom-10" />
+      <hr className=" w-full absolute bottom-10 dark:bg-slate-600" />
         <CoverPage />
         <About />
         <Speciality />

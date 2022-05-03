@@ -69,24 +69,24 @@ export default function Form() {
         id="name"
         placeholder="Name"
         type="text"
-        className="my-5 border-b-slate-800 border-b-2 bg-gray-50 outline-none focus:border-b-cyan-600"
+        className="my-5 border-b-slate-800 border-b-2 bg-gray-50 outline-none focus:border-b-cyan-600 dark:bg-slate-700"
       />
       <input
         name="user_email"
         id="email"
         placeholder="Email"
         type="email"
-        className="my-5 border-b-slate-800 border-b-2 bg-gray-50 outline-none focus:border-b-cyan-600"
+        className="my-5 border-b-slate-800 border-b-2 bg-gray-50 outline-none focus:border-b-cyan-600 dark:bg-slate-700"
       />
       <textarea
         name="message"
         id="message"
         placeholder="Write a message & press Enter to send"
         cols="40"
-        rows="10"
-        className="border-b-slate-800 border-b-2 bg-gray-50 outline-none focus:border-b-cyan-600"
+        rows="8"
+        className="border-b-slate-800 border-b-2 bg-gray-50 outline-none focus:border-b-cyan-600 dark:bg-slate-700"
       ></textarea>
-      <input type="submit" hidden name="submit" id="submit" />
+      <input type="submit" name="submit" id="submit" className="mt-5 w-24 px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-slate-800 hover:bg-slate-300 hover:text-slate-700"/>
     </form>
   );
 }

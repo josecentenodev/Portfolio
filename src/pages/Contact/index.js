@@ -5,15 +5,15 @@ export default function Contact() {
   return (
     <section className="slide" id="contact">
           <div className="md:w-4/5 md:mx-auto">
-            <h1 className="text-5xl font-bold my-20 px-12">
+            <h1 className="text-5xl font-bold my-20 px-12 dark:text-white">
               Contact <span className=" text-cyan-600 font-bold">Me</span>
             </h1>
             <div className="flex flex-col lg:flex-row">
               <div className="mx-auto md:px-8 md:mx-10 lg:w-96">
                 <Form />
               </div>
-              <div className="px-12 mt-10 flex flex-col">
-                <p className="text-left">
+              <div className="px-12 mt-4 flex flex-col">
+                <p className="text-left dark:text-white">
                   I am always ready to consider your proposal. You just need to
                   write to me. If you are not comfortable doing this through a
                   website, then here are networks that can help you.
